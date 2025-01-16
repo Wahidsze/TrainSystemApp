@@ -1,7 +1,7 @@
-﻿using WebApp.Models.ModelDatabase;
-using WebApp.Database;
+﻿using UserMicroservice.Models.ModelDatabase;
+using UserMicroservice.Database;
 
-namespace WebApp.Repositories
+namespace UserMicroservice.Repositories
 {
     public class UserRepository : IUserRepository
     {

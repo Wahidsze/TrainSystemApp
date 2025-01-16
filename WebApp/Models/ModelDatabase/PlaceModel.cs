@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace TrainSystem.Models.ModelDatabase
+namespace WebApp.Models.ModelDatabase
 {
     public class PlaceModel : BaseModel
     {

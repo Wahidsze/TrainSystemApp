@@ -1,9 +1,9 @@
-﻿using TrainSystem.Database;
+﻿using WebApp.Database;
 using Microsoft.EntityFrameworkCore;
-using TrainSystem.Models.ModelDatabase;
+using WebApp.Models.ModelDatabase;
 using System.Linq.Expressions;
 
-namespace TrainSystem.Repositories
+namespace WebApp.Repositories
 {
     public class BaseRepository<DbModel> : IBaseRepository<DbModel> where DbModel : BaseModel
 	{

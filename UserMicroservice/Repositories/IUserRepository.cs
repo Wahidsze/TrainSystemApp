@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
-using WebApp.Models.ModelDatabase;
+using UserMicroservice.Models.ModelDatabase;
 
-namespace WebApp.Repositories
+namespace UserMicroservice.Repositories
 {
     public interface IUserRepository
     {

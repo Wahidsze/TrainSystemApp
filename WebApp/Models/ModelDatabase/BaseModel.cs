@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
-namespace TrainSystem.Models.ModelDatabase
+namespace WebApp.Models.ModelDatabase
 {
     [PrimaryKey(nameof(Id))]
     public class BaseModel

@@ -1,6 +1,6 @@
-﻿using TrainSystem.Models.ModelViews;
+﻿using WebApp.Models.ModelViews;
 
-namespace TrainSystem.Services
+namespace WebApp.Services
 {
     public interface ITicketMicroservice
     {

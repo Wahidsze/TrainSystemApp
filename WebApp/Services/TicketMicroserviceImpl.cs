@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
-using TrainSystem.Models.ModelViews;
+using WebApp.Models.ModelViews;
 using System.Text.Json;
 
-namespace TrainSystem.Services
+namespace WebApp.Services
 {
     public class TicketMicroserviceImpl : ITicketMicroservice
     {
@@ -18,8 +18,6 @@ namespace TrainSystem.Services
             var response = await _httpClient.GetAsync(options);
             response.EnsureSuccessStatusCode();
             var json = await response.Content.ReadAsStringAsync();
-            var res = JsonSerializer.Deserialize<IEnumerable<TicketViewModel>>(json);
-            Console.WriteLine(json);
             return JsonSerializer.Deserialize<List<TicketViewModel>>(json);
         }
     }

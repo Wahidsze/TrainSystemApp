@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using TrainSystem.Models.ModelViews;
-using TrainSystem.Services;
+using WebApp.Models.ModelViews;
+using WebApp.Services;
 
-namespace TrainSystem.Controllers
+namespace WebApp.Controllers
 {
     public class HomeController : Controller
     {

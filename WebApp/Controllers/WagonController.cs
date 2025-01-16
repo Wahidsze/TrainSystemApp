@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TrainSystem.Models.ModelViews;
+using WebApp.Models.ModelViews;
 
-namespace TrainSystem.Controllers
+namespace WebApp.Controllers
 {
 	public class WagonController : Controller
 	{
