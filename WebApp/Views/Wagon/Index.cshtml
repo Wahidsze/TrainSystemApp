@@ -35,7 +35,7 @@
                     @foreach (var placement in wagon.WagonPlacements)
                     {
                         <li>
-                            <form asp-action="Index" asp-controller="Wagon" method="post">
+                            <form asp-action="Buy" asp-controller="Wagon" method="post">
                                 @Html.Hidden("selectPlace", JsonConvert.SerializeObject(placement))
                                 <button type="submit">@placement.PlaceName - @placement.Cost</button>
                             </form>

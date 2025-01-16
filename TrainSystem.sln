@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserMicroservice", "UserMic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketMicroservice", "TicketMicroservice\TicketMicroservice.csproj", "{B86836A7-2ACC-4117-A340-439A0DF77C06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyingTicketMicroservice", "BuyingTicketMicroservice\BuyingTicketMicroservice.csproj", "{D270E209-256B-4F7B-A5C3-70E4177FE096}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{B86836A7-2ACC-4117-A340-439A0DF77C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B86836A7-2ACC-4117-A340-439A0DF77C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B86836A7-2ACC-4117-A340-439A0DF77C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D270E209-256B-4F7B-A5C3-70E4177FE096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D270E209-256B-4F7B-A5C3-70E4177FE096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D270E209-256B-4F7B-A5C3-70E4177FE096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D270E209-256B-4F7B-A5C3-70E4177FE096}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 		{B9C47535-15A5-4AB6-ABD3-7DCB773E73E2} = {89FF7F07-666A-42A6-8A37-BCB985346981}
 		{516581B6-09CB-41D1-B19E-F0810558DCB7} = {289D08B4-607B-4859-8C84-82838379C0FE}
 		{B86836A7-2ACC-4117-A340-439A0DF77C06} = {289D08B4-607B-4859-8C84-82838379C0FE}
+		{D270E209-256B-4F7B-A5C3-70E4177FE096} = {289D08B4-607B-4859-8C84-82838379C0FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38843019-E0CC-4F39-B72A-CD6BDED597FE}

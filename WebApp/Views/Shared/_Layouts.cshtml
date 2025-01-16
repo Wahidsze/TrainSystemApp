@@ -6,6 +6,12 @@
 		<title>WebApp</title>
 	</head>
 	<body>
+	@if (TempData["Message"] != null)
+	{
+		<div class="alert alert-info">
+			@TempData["Message"]
+		</div>
+	}
 		<ul>
 			<li><a asp-action="Index" asp-controller="Home">Home</a></li>
 			@if (!User.Identity.IsAuthenticated)
