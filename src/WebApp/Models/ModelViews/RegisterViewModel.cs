@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TrainSystem.Models.ModelViews
+namespace WebApp.Models.ModelViews
 {
     public class RegisterViewModel
     {

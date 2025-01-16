@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
-using TrainSystem.Models.ModelDatabase;
+using WebApp.Models.ModelDatabase;
 
-namespace TrainSystem.Repositories
+namespace WebApp.Repositories
 {
     public interface IUserRepository
     {

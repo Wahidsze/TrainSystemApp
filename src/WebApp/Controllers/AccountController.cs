@@ -3,15 +3,15 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-using TrainSystem.Models.ModelViews;
-using TrainSystem.Services;
+using WebApp.Models.ModelViews;
+using WebApp.Services;
 
-namespace TrainSystem.Controllers
+namespace WebApp.Controllers
 {
     public class AccountController : Controller
     {
-        private IUserService _service { get; set; }
-        public AccountController(IUserService service) 
+        private IUserMicroservice _service { get; set; }
+        public AccountController(IUserMicroservice service) 
         {
             _service = service;
         }

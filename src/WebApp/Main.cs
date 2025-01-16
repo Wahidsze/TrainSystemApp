@@ -1,7 +1,7 @@
 using Microsoft.IdentityModel.Tokens;
 
 
-namespace TrainSystem
+namespace WebApp
 {
     public class Program
     {

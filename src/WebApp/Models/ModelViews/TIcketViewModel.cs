@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace TrainSystem.Models.ModelViews
+namespace WebApp.Models.ModelViews
 {
     public class TicketViewModel
     {

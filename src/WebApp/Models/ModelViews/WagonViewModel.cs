@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
-using TrainSystem.Models.ModelDatabase;
+using WebApp.Models.ModelDatabase;
 
-namespace TrainSystem.Models.ModelViews
+namespace WebApp.Models.ModelViews
 {
     public class WagonViewModel
     {

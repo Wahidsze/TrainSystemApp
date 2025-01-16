@@ -1,4 +1,4 @@
-﻿namespace TrainSystem.Models.ModelDatabase
+﻿namespace WebApp.Models.ModelDatabase
 {
     public class DateModel : BaseModel
     {

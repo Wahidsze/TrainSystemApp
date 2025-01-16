@@ -20,7 +20,7 @@ namespace UserMicroservice
             {
                 options.UseSqlServer(connection);
             });
-            services.AddTransient<ITicketService, TicketService>();
+            services.AddTransient<IUserService, UserService>();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

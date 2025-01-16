@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TrainSystem.Models.ModelDatabase;
+using WebApp.Models.ModelDatabase;
 
-namespace TrainSystem.Database
+namespace WebApp.Database
 {
     public class ApplicationContext : DbContext
     {

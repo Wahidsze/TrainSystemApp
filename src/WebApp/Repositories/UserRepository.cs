@@ -1,7 +1,7 @@
-﻿using TrainSystem.Models.ModelDatabase;
-using TrainSystem.Database;
+﻿using WebApp.Models.ModelDatabase;
+using WebApp.Database;
 
-namespace TrainSystem.Repositories
+namespace WebApp.Repositories
 {
     public class UserRepository : IUserRepository
     {

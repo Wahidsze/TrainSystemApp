@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using TrainSystem.Models.ModelViews;
-namespace TrainSystem.Controllers
+using WebApp.Models.ModelViews;
+namespace WebApp.Controllers
 {
     public class TicketController : Controller
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
-using TrainSystem.Models.ModelDatabase;
+using WebApp.Models.ModelDatabase;
 
-namespace TrainSystem.Repositories
+namespace WebApp.Repositories
 {
     public interface IBaseRepository<DbModel> where DbModel : BaseModel
 	{
