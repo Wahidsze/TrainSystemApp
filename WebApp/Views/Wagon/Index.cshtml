@@ -37,7 +37,8 @@
                         <li>
                             <form asp-action="Buy" asp-controller="Wagon" method="post">
                                 @Html.Hidden("selectPlace", JsonConvert.SerializeObject(placement))
-                                <button type="submit">@placement.PlaceName - @placement.Cost</button>
+
+                            <button type="submit" @(placement.IsOccupied ? "disabled" : "")>@placement.PlaceName - @placement.Cost</button>
                             </form>
                         </li>
                     }

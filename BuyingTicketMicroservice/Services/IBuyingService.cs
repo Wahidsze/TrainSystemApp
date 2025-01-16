@@ -4,7 +4,7 @@ using BuyingTicketMicroservice.Models.ModelDatabase;
 
 namespace BuyingTicketMicroservice.Services
 {
-	public interface IBuyingTicketService
+	public interface IBuyingService
 	{
         public Task<UserTicketModel> AddUserTicket(Guid TicketId, Guid UserId);
     }

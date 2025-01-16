@@ -34,7 +34,7 @@ namespace WebApp
             {
                 client.BaseAddress = new Uri("https://localhost:7299/");
             });
-            services.AddHttpClient<IBuyingTicketMicroservice, BuyingTicketMicroserviceImpl>(client =>
+            services.AddHttpClient<IBuyingMicroservice, BuyingMicroserviceImpl>(client =>
             {
                 client.BaseAddress = new Uri("https://localhost:7070/");
             });

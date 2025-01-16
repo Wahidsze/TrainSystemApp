@@ -16,6 +16,7 @@ namespace BuyingTicketMicroservice.Repositories
             var userTicket = new UserTicketModel { Id = Guid.NewGuid() ,TicketId = TicketId, UserId = UserId, IsBuying = true };
             if (_userTickets.Where(u => u.TicketId == TicketId).IsNullOrEmpty())
             {
+                Console.WriteLine(TicketId);
                 return _userTickets.Create(new UserTicketModel { Id = Guid.NewGuid(), TicketId = TicketId, UserId = UserId, IsBuying = true }); ;
             }
             return null;

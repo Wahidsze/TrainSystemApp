@@ -6,10 +6,10 @@ using BuyingTicketMicroservice.Repositories;
 
 namespace BuyingTicketMicroservice.Services
 {
-    public class BuyingTicketService : IBuyingTicketService
+    public class BuyingService : IBuyingService
     {
         private IBuyingTicketRepository _userTickets { get; set; }
-        public BuyingTicketService(ApplicationContext context) 
+        public BuyingService(ApplicationContext context) 
         {
             _userTickets = new BuyingTicketRepository(context);
         }

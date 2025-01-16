@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserMicroservice", "UserMic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketMicroservice", "TicketMicroservice\TicketMicroservice.csproj", "{B86836A7-2ACC-4117-A340-439A0DF77C06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyingTicketMicroservice", "BuyingTicketMicroservice\BuyingTicketMicroservice.csproj", "{D270E209-256B-4F7B-A5C3-70E4177FE096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuyingTicketMicroservice", "BuyingTicketMicroservice\BuyingTicketMicroservice.csproj", "{D270E209-256B-4F7B-A5C3-70E4177FE096}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

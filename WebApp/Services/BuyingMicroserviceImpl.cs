@@ -3,16 +3,16 @@ using TicketMicroservice.Models.ModelDatabase;
 
 namespace WebApp.Services
 {
-    public class BuyingTicketMicroserviceImpl : IBuyingTicketMicroservice
+    public class BuyingMicroserviceImpl : IBuyingMicroservice
     {
         private HttpClient _httpClient { get; set; }
-        public BuyingTicketMicroserviceImpl(HttpClient httpClient) 
+        public BuyingMicroserviceImpl(HttpClient httpClient) 
         {
             _httpClient = httpClient;
         }
         public async Task<UserTicketModel?> BuyUserTicket(Guid TicketId, Guid UserId)
         {
-            var options = $"api/userticket/buy/{TicketId}/{UserId}";
+            var options = $"api/buying/buy/{TicketId}/{UserId}";
             var response = await _httpClient.GetAsync(options);
             if (response.IsSuccessStatusCode)
             {

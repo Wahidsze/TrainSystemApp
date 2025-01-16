@@ -8,7 +8,7 @@ namespace TicketMicroservice.Repositories
 	{
 		public List<DbModel> GetAll();
 		public DbModel GetById(Guid id);
-		public Task<DbModel> GetByAttribute(Expression<Func<DbModel, bool>> predicate);
+		public DbModel GetByAttribute(Expression<Func<DbModel, bool>> predicate);
 		public IQueryable<DbModel> Where(Expression<Func<DbModel, bool>> predicate);
 		public DbModel Update(DbModel model);
 		public void DeleteById(DbModel model);

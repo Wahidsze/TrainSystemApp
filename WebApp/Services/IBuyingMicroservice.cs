@@ -2,7 +2,7 @@
 
 namespace WebApp.Services
 {
-    public interface IBuyingTicketMicroservice
+    public interface IBuyingMicroservice
     {
         public Task<UserTicketModel> BuyUserTicket(Guid TicketId, Guid UserId);
     }

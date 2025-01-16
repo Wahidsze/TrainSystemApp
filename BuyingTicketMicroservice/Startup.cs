@@ -20,7 +20,7 @@ namespace BuyingTicketMicroservice
             {
                 options.UseSqlServer(connection);
             });
-            services.AddTransient<IBuyingTicketService, BuyingTicketService>();
+            services.AddTransient<IBuyingService, BuyingService>();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

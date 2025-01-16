@@ -58,7 +58,7 @@ namespace TicketMicroservice.Repositories
         }
         public UserTicketModel GetUserTicketById(Guid ticketId)
         {
-            return _userTickets.GetById(ticketId);
+            return _userTickets.GetByAttribute(t => t.TicketId == ticketId);
         }
         public List<Condition> GetConditionsById(Guid wagonId)
         {

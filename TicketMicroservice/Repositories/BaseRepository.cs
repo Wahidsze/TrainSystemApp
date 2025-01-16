@@ -20,9 +20,9 @@ namespace TicketMicroservice.Repositories
 		{
 			return _context.Set<DbModel>().FirstOrDefault(t => t.Id == Id)??null;
 		}
-        public async Task<DbModel> GetByAttribute(Expression<Func<DbModel, bool>> predicate)
+        public DbModel GetByAttribute(Expression<Func<DbModel, bool>> predicate)
         {
-            return await _context.Set<DbModel>().FirstOrDefaultAsync(predicate);
+            return _context.Set<DbModel>().FirstOrDefault(predicate);
         }
 		public IQueryable<DbModel> Where(Expression<Func<DbModel, bool>> predicate)
 		{
